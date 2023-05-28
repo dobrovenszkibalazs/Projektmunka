@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: justify;
+    margin: 5px;
+}
+
+a {
+    color: white  !important;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    color: rgb(80, 43, 138);
+    
+}
+
+#textus {
+    margin-top: 4px;
+    padding-top: 4px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+#githublogo {
+    display: inline-block;
+    width: 40px;
+    margin-top: 4px;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.vegszo {
+    font-size: 1.1em;
+    border: 2px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
