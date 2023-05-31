@@ -29,7 +29,7 @@ button {
     margin-top: 5px;
 }
 
-#githublogo {
+.logo {
     display: inline-block;
     width: 40px;
     margin-top: 4px;
@@ -88,13 +88,25 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2.5em;
-    padding-bottom: none;
+    padding-bottom: 0px;
 }
 
 .tanulasimg {
     width: 500px;
     float: right;
     margin: 2px 5px 2px 20px;
+}
+
+#atlatszobody {
+    background-image: url(Kepek/Hatter.png);
+}
+
+#atlatszomain {
+    background-color: rgba(30, 30, 30, 90%);
+}
+
+#fekete {
+    color: black;
 }
 
 nav {
@@ -120,6 +132,10 @@ ol li {
 figure {
     float: right;
     text-align: center;
+}
+
+.vissza:hover {
+    text-decoration: underline white;
 }
 
 @media (max-width: 1227px) {
@@ -159,4 +175,12 @@ figure {
 
 #halado-link:hover {
     text-decoration: solid underline white;
+}
+
+table {
+    margin-top: 10px;
+}
+
+th {
+   background-color: rgb(40, 76, 152) !important ;
 }
