@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanulás</title>
+    <title>Tanulás - Git és GitHub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="teteje">Tanulás</h1>
+    <header>
+        <h1 id="teteje">Tanulás</h1>
+    </header>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary bg-dark bg-dark" data-bs-theme="dark">
         <div class="container-fluid navbar-collapse">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,14 +26,13 @@
             </div>
         </div>
     </nav>
-    <header>
-        <ul>
-            <li><a href="#Kezdo">Kezdőknek</a></li>
-            <li><a href="#Halado">Haladóknak</a></li>
-        </ul>
-    </header>
-    <section>
+    <ul id="nav-lista">
+        <li id="kezdo-link"><a href="#Kezdo">Kezdőknek</a></li>
+        <li id="halado-link"><a href="#Halado">Haladóknak</a></li>
+    </ul>
+    <main>
         <h2 id="Kezdo">Kezdőknek</h2>
+        <a href="Kepek/GitvsGithub.jpg" target="_blank"><img src="Kepek/GitvsGithub.jpg" alt="GitvsGithub" class="img-fluid tanulasimg"></a>
         <p>A mai világban, ahol a közös munka és a verziókezelés kiemelkedően fontos, a Git és a GitHub elengedhetetlen eszközökké váltak a szoftverfejlesztők, írók, kutatók és hobbi fejlesztők számára. A Git és a GitHub tanulása kezdőként elsőre talán félelmetesnek tűnhet, de a megfelelő megközelítéssel és erőforrásokkal ez egy jutalmazó és erőt adó tapasztalattá válhat. Ez az esszé bemutatja, miért érdemes elkezdeni a Git és a GitHub tanulását kezdőként, és iránymutatást ad a kezdéshez.</p>
         <h3>A verziókezelés fontosságának megértése</h3>
         <p>A verziókezelés egy olyan rendszer, amely lehetővé teszi a fájlok és projektek időbeli változásainak kezelését. Számos előnyt nyújt, mint például a módosítások nyomon követése, visszatérés korábbi verziókhoz, zökkenőmentes együttműködés és jól strukturált munkafolyamat fenntartása. A Git, egy elosztott verziókezelő rendszer, és a GitHub, a Gitre épülő webes tárhely szolgáltatás, egy erős keretrendszert nyújt a verziókezeléshez, amelyet széles körben használnak az iparágakban.</p>
@@ -49,10 +50,9 @@
         <div class="vegszo">
             <p>A Git és a GitHub tanulása kezdőként jelentős befektetés a személyes és szakmai fejlődésedbe. Ezek az eszközök az iparági szabvánnyá váltak a verziókezelés és együttműködés terén, lehetővé téve a fejlesztőknek és más szakembereknek hatékonyan és együttműködésben dolgozni bármilyen projekt méretében. A rendelkezésre álló tanulási forrásokat kihasználva és gyakorlatot szerzve megszerezheted a magabiztosságot és a képességeket, amelyekre szükséged van a Git és a GitHub hatékony kihasználásához.</p>
         </div>
-    </section>
-    <section>
         <h2 id="Halado">Haladóknak</h2>
         <p>Miután már elsajátítottad a Git és a GitHub alapjait kezdőként, elérkezett az ideje, hogy továbblépj a haladó szintre. A Git és a GitHub mélyebb megértése lehetővé teszi számodra, hogy hatékonyabban dolgozz projekteken, kezelj bonyolultabb verziózási forgatókönyveket és együttműködj a többi fejlesztővel. Ez az esszé bemutatja, hogyan tanulhatod meg a Git-et és a GitHub-ot haladó szinten.</p>
+        <img src="Kepek/tanulás-oldal.jpg" alt="GitHub" class="img-fluid tanulasimg">
         <h3>Mélyebb Git ismeretek</h3>
         <p>A haladó szinten a Git további funkcióit és lehetőségeit kell felfedezned. Ismerkedj meg a Git ágkezelési stratégiáival, például a git rebase és a git cherry-pick használatával. Tanulj meg hasznos parancsokat és opciókat, például a git stash, git reflog és git blame. Továbbá, tanulj meg hatékonyan használni a Git log-ot és az egyéb parancsokat a verziótörténet elemzéséhez és a hibakereséshez.</p>
         <h3>Összetettebb munkafolyamatok és eszközök</h3>
@@ -66,12 +66,14 @@
         <div class="vegszo">
             <p>A Git és a GitHub haladó szinten történő tanulása lehetővé teszi számodra, hogy még hatékonyabban kezeld a verziókezelést és az együttműködést projektekben. A mélyebb Git ismeretek, összetettebb munkafolyamatok és speciális GitHub funkciók segítségével fejlődhet a fejlesztői készségeid. A részvétel a közösségi fejlesztésben pedig lehetőséget ad arra, hogy valós projektekben gyakorolj és tanulj más fejlesztőktől.</p>
         </div>
-    </section>
-    <button type="button" class="btn btn-dark">
-        <a href="#teteje" class="">Vissza a tetejére</a>
-    </button>
-    <img id="githublogo" src="Kepek/GitHub-logo.png" alt="GitHub-logo" title="GitHub logo">
-    <img id="githublogo" src="Kepek/Git-logo.png" alt="Git-logo" title="Git logo">
+    </main>
+    <footer>
+        <button type="button" class="btn btn-dark">
+            <a href="#teteje" class="">Vissza a tetejére</a>
+        </button>
+        <a href="https://github.com" target="_blank"><img id="githublogo" src="Kepek/GitHub-logo.png" alt="GitHub-logo" title="GitHub logo"></a>
+        <a href="https://git-scm.com" target="_blank"><img id="githublogo" src="Kepek/Git-logo.png" alt="Git-logo" title="Git logo"></a>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
